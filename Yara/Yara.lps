@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="Yara.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="7"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="test/yar/math/utestmath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTestMath"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="32"/>
+        <UsageCount Value="22"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src/yar/cnc/ucnc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UCnc"/>
+        <CursorPos X="2" Y="9"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src/yar/cnc/tacommand.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="src/yar/cnc/tacommandimpl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="src/yar/cnc/tspindlespeed.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="src/yar/cnc/tspindlespeedimpl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="15" Y="18"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="test/yar/cnc/utestcnc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTestCnc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="17"/>
+        <UsageCount Value="22"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="src/yar/math/umath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UMath"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="7" Y="38"/>
+        <UsageCount Value="22"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="yar/math/_umath.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="5"/>
+        <UsageCount Value="20"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="yar/math/umath.pas"/>
+        <UnitName Value="UMath"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="24"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/inc/mathh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos X="14" Y="97"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="199"/>
+        <CursorPos X="27" Y="186"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="src/yar/cnc/ucnc.pas"/>
+      </Position1>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
