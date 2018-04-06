@@ -4,7 +4,7 @@ uses UTestMath, UCnc, UMath, UTestCnc;
 
 begin
   //UTestMath.testFactorial();
-  UTestMath.testPower();
+  //UTestMath.testPower();
   UTestCnc.testSpindleSpeedValue();
 end.
 

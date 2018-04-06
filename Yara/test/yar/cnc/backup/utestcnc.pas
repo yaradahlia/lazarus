@@ -14,8 +14,9 @@ implementation
 procedure testSpindleSpeedValue();
 var spindleSpeed: TSpindleSpeed;
 begin
-  spindleSpeed = TSpindleSpeed.Create(22345);
+  spindleSpeed := TSpindleSpeed.Create(22345);
   WriteLn('Spindle speed command: ', spindleSpeed.getValue());
+  WriteLn(spindleSpeed);
 end;
 
 end.
