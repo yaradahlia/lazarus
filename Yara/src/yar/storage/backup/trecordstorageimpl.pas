@@ -17,20 +17,20 @@ begin
 end;
 
 procedure TRecordStorage.addRecord(const key: K; const value: PT);
-var pRecord: TRecordStorage.PRecord;
+var pRec: TRecordStorage.PRecord;
     output: File of TRecordStorage.TRecord;
 begin
-  New(pRecord);
-  pRecord^.key := key;
-  pRecord^.data := value^;
-  pRecord^.active := true;
-  pRecord^.createdOn := now();
-  pRecord^.modifiedOn := now();
+  New(pRec);
+  pRec^.key := key;
+  pRec^.data := value^;
+  pRec^.active := true;
+  pRec^.createdOn := now();
+  pRec^.modifiedOn := now();
   assignFile(output, self.getFilePath());
   try
      reset(output);
      seek(output, FileSize(output));
-     write(output, pRecord^);
+     write(output, pRec^);
   finally
     closeFile(output);
   end;
@@ -94,11 +94,12 @@ end;
 
 procedure TRecordStorage.compact();
 begin
+  { TODO : Implement this method. }
   raise Exception.Create('Compact is not implemented yet.');
 end;
-{ TODO : Implement this method. }
+
 { TODO : Implement smart find, by a key index or something }
-function TRecordStorage.seekKey(f: File of TRecordStorage.TRecord; const key: K): Boolean;
+function TRecordStorage.seekKey(f: TRecordStorage.TRecordFile; const key: K): Boolean;
 var existingRecord: TRecordStorage.TRecord;
 begin
   result := false;

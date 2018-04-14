@@ -1,5 +1,4 @@
 
-
 type
   generic TRecordStorage<K, T> = class
     strict private
@@ -14,11 +13,13 @@ type
     strict private
       type PRecord = ^TRecord;
     strict private
+      type TRecordFile = File of TRecordStorage.TRecord;
+    strict private
       type PT = ^T;
     strict private
       filePath: AnsiString;
     strict protected
-      function seekKey(f: File of TRecordStorage.TRecord; const key: K): Boolean; virtual;
+      function seekKey(var f: TRecordFile; const key: K): Boolean; virtual;
     public
       constructor Create(const newFilePath: AnsiString);
       destructor Destroy(); override;

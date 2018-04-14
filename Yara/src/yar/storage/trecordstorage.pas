@@ -13,11 +13,13 @@ type
     strict private
       type PRecord = ^TRecord;
     strict private
+      type TRecordFile = File of TRecordStorage.TRecord;
+    strict private
       type PT = ^T;
     strict private
       filePath: AnsiString;
     strict protected
-      function seekKey(f: File of TRecordStorage.TRecord; const key: K): Boolean; virtual;
+      function seekKey(var f: TRecordFile; const key: K): Boolean; virtual;
     public
       constructor Create(const newFilePath: AnsiString);
       destructor Destroy(); override;
@@ -26,5 +28,5 @@ type
       procedure removeRecord(const key: K); virtual;
       procedure updateRecord(const key: K; const newValue: PT); virtual;
       function findRecord(const key: K): PT; virtual;
-      procedure compact(); virtual
+      procedure compact(); virtual;
   end;
