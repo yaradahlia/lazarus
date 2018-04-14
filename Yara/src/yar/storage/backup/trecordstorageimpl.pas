@@ -94,10 +94,9 @@ end;
 
 procedure TRecordStorage.compact();
 begin
-  { TODO : Implement this method. }
   raise Exception.Create('Compact is not implemented yet.');
 end;
-
+{ TODO : Implement this method. }
 { TODO : Implement smart find, by a key index or something }
 function TRecordStorage.seekKey(f: File of TRecordStorage.TRecord; const key: K): Boolean;
 var existingRecord: TRecordStorage.TRecord;
