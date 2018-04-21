@@ -7,6 +7,9 @@ interface
 uses
   SysUtils;
 
+type
+    TString100 = String[100];
+
 {$Include trecordstorage.pas}
 
 implementation
